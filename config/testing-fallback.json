@@ -25,7 +25,7 @@
     {
       "id": "0e565137-f983-49fe-ac61-15adfe19e962",
       "username": "overlapUser",
-      "password": "$2a$10$uVm5S7RjZlTyJCejSnchVOZdrvCGfeDtvahFDgrCNfGJ5R0ckmuCG",
+      "password": "$2a$10$kKI0YcV5uav7ECEfEnwpXO/Q7YFNOEh24EUaAqK5AsbyvanVj8SNS", //asdf using bcrypt
       "playerName": "overlapPlayer",
       "playerNameIndex": "overlapplayer",
       "skinUrl": "steve.png"
