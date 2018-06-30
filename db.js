@@ -1,11 +1,10 @@
 var fs = require('fs');
-var config = require('config');
 var driver = require('./lib/driver/mongodb');
 var promptly = require('promptly');
 var helper = require('./lib/cli/userHelper');
 var crypto = require('crypto');
 var uuid = require('node-uuid');
-var bcrypt = require('bcryptjs'); //add bcrypt library
+var bcrypt = require('bcryptjs');
 
 var argv = require('yargs')
     .usage('Usage: $0 <command> [options]')
@@ -63,7 +62,7 @@ function create() {
             return helper.askPassword('Password (required)');
         })
         .then(function (password) {
-            user.password = bcrypt.hashSync(password); //a little more secure, no?
+            user.password = bcrypt.hashSync(password);
             return helper.askReqField('Player name (required)');
         })
         .then(function (playerName) {
