@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "jasmine-node": "~1.15.0",
-    "frisby": "~0.8.5"
+    "frisby": "~2.0.16"
   },
   "repository": {
     "type": "git",
