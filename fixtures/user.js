@@ -2,7 +2,7 @@ exports.user = [
     {
         "id": "650bed2c-9ef5-4b5f-b02c-61fa493c68b5",
         "username": "test",
-        "password": "098f6bcd4621d373cade4e832627b4f6", // test using MD5
+        "password": "$2a$10$uVm5S7RjZlTyJCejSnchVOZdrvCGfeDtvahFDgrCNfGJ5R0ckmuCG", // test using bcrypt
         "playerName": "testPlayer",
         "playerNameIndex": "testplayer",
         "skinUrl": "steve.png"
@@ -10,7 +10,7 @@ exports.user = [
     {
         "id": "1294fda6-159c-4218-be4c-89b660d9cf32",
         "username": "testOld",
-        "password": "098f6bcd4621d373cade4e832627b4f6",
+        "password": "$2a$10$uVm5S7RjZlTyJCejSnchVOZdrvCGfeDtvahFDgrCNfGJ5R0ckmuCG",
         "playerName": "testPlayerOld",
         "playerNameIndex": "testplayerold",
         "skinUrl": "steve.png",
@@ -22,7 +22,7 @@ exports.user = [
     {
         "id": "9a7f1d46-4050-462e-bb32-fe4d78f7ec03",
         "username": "overlapUser",
-        "password": "098f6bcd4621d373cade4e832627b4f6",
+        "password": "$2a$10$uVm5S7RjZlTyJCejSnchVOZdrvCGfeDtvahFDgrCNfGJ5R0ckmuCG",
         "playerName": "overlapPlayer",
         "playerNameIndex": "overlapplayer",
         "skinUrl": "steve.png"
@@ -30,7 +30,7 @@ exports.user = [
     {
         "id": "7ac4a66d-859d-4691-a2da-be490d0badcb",
         "username": "dbUser",
-        "password": "d77d5e503ad1439f585ac494268b351b", // db using MD5
+        "password": "$2a$10$WPOtdo4WRx5OvA0roYoCJuCCdK5NmA72mv/Dk8g4hcxNxo.3gjIcm", // db using bcrypt
         "playerName": "dbPlayer",
         "playerNameIndex": "dbplayer",
         "skinUrl": "steve.png"
